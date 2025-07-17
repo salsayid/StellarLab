@@ -1,0 +1,19 @@
+{
+  "name": "Sample LEO Mission",
+  "stages": [
+    {
+      "stage_name": "First Stage",
+      "dry_mass": 25000,
+      "fuel_mass": 400000,
+      "engine_config": "data/engine_configs/merlin.json",
+      "num_engines": 9
+    },
+    {
+      "stage_name": "Second Stage",
+      "dry_mass": 4000,
+      "fuel_mass": 92670,
+      "engine_config": "data/engine_configs/merlin.json",
+      "num_engines": 1
+    }
+  ]
+}

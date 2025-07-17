@@ -1,0 +1,8 @@
+{
+  "name": "RS-25",
+  "type": "LiquidEngine",
+  "thrust": 1860000,
+  "isp": 366,
+  "burn_time": 480,
+  "throttle_range": [0.67, 1.09]
+}

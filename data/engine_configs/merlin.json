@@ -1,0 +1,8 @@
+{
+  "name": "Merlin 1D (Sea Level)",
+  "type": "LiquidEngine",
+  "thrust": 845000,
+  "isp": 282,
+  "burn_time": 162,
+  "throttle_range": [0.7, 1.0]
+}

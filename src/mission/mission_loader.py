@@ -1,7 +1,7 @@
 # src/mission/mission_loader.py
 
 import json
-from src.engines.base_engine import RocketEngine
+from engines.base_engine import RocketEngine
 
 class Stage:
     """
@@ -17,7 +17,7 @@ class Stage:
 
     def get_thrust(self, time):
         """
-        Calculates the total thrust from all engines in the stage.
+        Calculates the total total thrust from all engines in the stage.
         """
         return self.engine.get_thrust(time) * self.num_engines
 
